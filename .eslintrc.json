@@ -11,9 +11,10 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": "latest",
+        "ecmaVersion": 6,
         "sourceType": "module"
     },
+    "ignorePatterns": ["app.js", "reportWebVitals.js", "*.test.js", "index.js"],
     "plugins": [
         "react"
     ],
